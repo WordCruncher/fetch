@@ -1,0 +1,11 @@
+[build-system]
+requires = [
+	"bs4",
+	"os",
+	"re",
+	"requests",
+	"selenium",
+	"time",
+	"webdriver_manager"
+]
+build-backend = "setuptools.build_meta"
